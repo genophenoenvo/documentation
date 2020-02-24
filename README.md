@@ -6,6 +6,8 @@ The phenotype data was transformed into this [file](https://docs.google.com/spre
 
 The genotype data is in VCF and HapMap files. Genes relevant for the phenotypes of interest were found using Gramene and are [here](https://docs.google.com/spreadsheets/d/1ugMisjghvSfa0W_TPhA-0_6C8A0X-gwOqPZbzqjJOrg/edit#gid=0).
 
+The difference between VCF and HapMap files is explained [here](http://augustogarcia.me/statgen-esalq/Hapmap-and-VCF-formats-and-its-integration-with-onemap/).
+
 Initial phenotypes for ML are:
 * GDD to flowering
 * GDD to flagleaf emergence
