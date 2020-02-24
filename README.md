@@ -26,3 +26,5 @@ The weather parameters we have are below, but are from a nearby weather station,
 * Precipitation
 
 The genotype data contain information on X cultivars.
+
+The result of the GWAS is [here](https://data.monarchinitiative.org/tassel5/).
