@@ -1,6 +1,6 @@
 # documentation
 
-We started with phenotype and genotype data files from TERRA-REF. These files were accessed directly from TERRA-REF using code found here for the trait data and here for the geneotype data.
+We started with phenotype and genotype data files from TERRA-REF. These files were accessed directly from TERRA-REF using code found here for the trait data and here for the geneotype data. The documentation for the genomic data is [here](https://docs.terraref.org/experimental-design/experimental-design-genomics).
 
 The phenotype data was transformed into this [file](https://docs.google.com/spreadsheets/d/1wxPZUNe6-2DxEYNpklahUOScweRmuiV9Vc0ax6JWFLY/edit#gid=1382556769) for use in the ML model and this file for GWAS. Phenotypes were mapped to ontology terms [here](https://docs.google.com/spreadsheets/d/1VZRN38Sf4j57SBtkJQIX7zQV4sYXahw7eCaJqYNzC0c/edit#gid=2033025260). 
 
