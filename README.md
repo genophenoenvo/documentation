@@ -6,3 +6,21 @@ The phenotype data was transformed into this [file](https://docs.google.com/spre
 
 The genotype data is in VCF and HapMap files.
 
+Initial phenotypes for ML are:
+* GDD to flowering
+* GDD to flagleaf emergence
+* End of season canopy height
+* End of season above ground dry biomass
+
+Initial environmental parameters are:
+* Row and column position
+* Soil - maybe
+
+The weather parameters we have are below, but are from a nearby weather station, so are not different for each cultivar.
+* Air temperature
+* Relative humidity
+* GDD
+* Wind speed and direction
+* Precipitation
+
+The genotype data contain information on X cultivars.
