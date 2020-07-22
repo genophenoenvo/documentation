@@ -9,7 +9,7 @@ There are HapMap files and [VCF files](https://datacommons.cyverse.org/browse/ip
 
 The HapMap file and the phenotype [file](https://docs.google.com/spreadsheets/d/1wxPZUNe6-2DxEYNpklahUOScweRmuiV9Vc0ax6JWFLY/edit#gid=1382556769) was used with [Tassel](https://www.maizegenetics.net/tassel) to find the relevant SNPs (rows in the HapMap file) using GWAS. The result of the GWAS is [here](https://data.monarchinitiative.org/tassel5/). The hapmap-slim.vcf file contains only the SNPs that were found to be correlated to the phenotypes of interest by the GWAS.
 
-The VCF files were concatenated and can be found [here](https://data.monarchinitiative.org/genophenoenvo/vcf/). These files were exported to Tassel for GWAS. The output can be found [here](https://data.monarchinitiative.org/genophenoenvo/tassel5/).
+The VCF files were concatenated and can be found [here](https://data.monarchinitiative.org/genophenoenvo/vcf/). These files were exported to Tassel for GWAS. The output can be found [here](https://data.monarchinitiative.org/genophenoenvo/tassel5/). The GWAS was used to filter the concatenated VCF file to the "Slim VCF" file that contains only the genes that the GWAS found to be useful for the phenotypes of interest (flowering time and canopy height).
 
 The knowledge graphs at Monarch, Gramene, and Planteome were queried to find genes that impact the phenotypes of interest. The knowledge graphs were queried using ontology terms that mapped to the phenotypes [here](https://docs.google.com/spreadsheets/d/1VZRN38Sf4j57SBtkJQIX7zQV4sYXahw7eCaJqYNzC0c/edit#gid=2033025260) and additional related GO terms. The results of these queries are [here](https://docs.google.com/spreadsheets/d/1ugMisjghvSfa0W_TPhA-0_6C8A0X-gwOqPZbzqjJOrg/edit#gid=0). We used Gramene [biomart](http://ensembl.gramene.org/biomart/martview/892190680828bd6ce88eb424dda517cf) to find Sorghum orthologs for Arabidopsis genes that were identified as potentially relevant by Monarch. Additionally, we used the flowering time pathway for Arabidopsis in [WikiPathways](https://www.wikipathways.org/index.php/Pathway:WP2312) to identify more relevant genes. There is much less data for the other phenotypes. Instructions for using Gramene Biomart are [here](https://docs.google.com/presentation/d/1_nwQBiHmgFad7lwwlN_Hqq9WD_ukRSm-21NMX4YRyps/edit#slide=id.p).
 
@@ -40,8 +40,3 @@ The weather parameters we have are below, but are from a nearby weather station,
 
 # Outstanding Questions and Issues
 
-Can we get the VCF files concatenated?
-
-We need more data. What should we prioritize?
-
-We need to filter the genotype data file based on the KG query.
