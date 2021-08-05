@@ -58,7 +58,7 @@ https://github.com/genophenoenvo/phenophasebbn
 The machine learning team used the phenotype, genomic, and environment data to train and test a model to predict flowering time, canopy height, and flag leaf emergence. This work is described [here](https://github.com/genophenoenvo/Machine-Learning).
 
 # Knowledge Graph
-A graph was created by combining the Gene Ontology, the Plant Trait Ontology, the Plant Ontology, NCBITaxon, and Planteome using the KG-Hub code. The Planteome data used included gene, ortholog, QTL, and germplasm data for Sorghum bicolor, Zea mays, Oryza sativa, Populus trichocarpa, and Arabidopsis thaliana. The code for constructing the graph is [here](https://github.com/diatomsRcool/eco-kg). The lastest version of the graph is [here](https://github.com/genophenoenvo/knowledge-graph).
+A graph was created by combining the Gene Ontology, the Plant Trait Ontology, the Plant Ontology, NCBITaxon, and Planteome using the KG-Hub code. The Planteome data used included gene, ortholog, QTL, and germplasm data for Sorghum bicolor, Zea mays, Oryza sativa, Populus trichocarpa, and Arabidopsis thaliana. The code for constructing the graph is [here](https://github.com/diatomsRcool/eco-kg). The lastest version of the graph is [here](https://github.com/genophenoenvo/knowledge-graph). We plan to use the graph to make an embedding for using in visualization and ML.
 
 # Outstanding Questions and Issues
 
