@@ -2,7 +2,7 @@
 
 In year 1, we started with environmental data and phenotype and genotype data files from TERRA-REF and later added data from KSU and Clemson. We developed ML/statistical models and a Bayesian Belief Network for making predictions. 
 
-In year 2, we found an excellent cottonwood and corn data set. We are currently exploring those data sets to see if they are large enough to train a neural network. We starting collaborating with the Dogwood Genome Project to examine NPN data from the same dogwood clone and to sequence additional clones.
+In year 2, we found an excellent cottonwood and corn data set. We are currently exploring those data sets to see if they are large enough to train a neural network. We starting collaborating with the Dogwood Genome Project to examine NPN data from the same dogwood clone and to sequence additional clones. We investigated the possibility of applying the sorghum-trained model on Sorghastrum, a wild relative of sorghum with data in NPN, but there were not enough data points. 
 
 ## Genomic Data
 ### Sorghum
@@ -18,6 +18,12 @@ After this result, we decided to go back to the VCF files and explore creating a
 The knowledge graphs at Monarch, Gramene, and Planteome were queried to find genes that impact the phenotypes of interest. The knowledge graphs were queried using ontology terms that mapped to the phenotypes [here](https://docs.google.com/spreadsheets/d/1VZRN38Sf4j57SBtkJQIX7zQV4sYXahw7eCaJqYNzC0c/edit#gid=2033025260) and additional related GO terms. The results of these queries are [here](https://docs.google.com/spreadsheets/d/1ugMisjghvSfa0W_TPhA-0_6C8A0X-gwOqPZbzqjJOrg/edit#gid=0). We used Gramene [biomart](http://ensembl.gramene.org/biomart/martview/892190680828bd6ce88eb424dda517cf) to find Sorghum orthologs for Arabidopsis genes that were identified as potentially relevant by Monarch. Additionally, we used the flowering time pathway for Arabidopsis in [WikiPathways](https://www.wikipathways.org/index.php/Pathway:WP2312) to identify more relevant genes. There is much less data for the other phenotypes. Instructions for using Gramene Biomart are [here](https://docs.google.com/presentation/d/1_nwQBiHmgFad7lwwlN_Hqq9WD_ukRSm-21NMX4YRyps/edit#slide=id.p). When looking at the SNPs of interest using information theory, we looked to see if any of the genes are also present in the knowledge graph queries. there were very few - perhaps seven. We anticpate that the KG queries will become more relevant when we start examining more species.
 
 After a discussion with Addie Thompson at MSU (in July 2021), we realized we took the wrong approach with the gene data. We will now repeat the gene data manipulations for the sorghum files with different parameters for the GWAS analysis. We will also convert the entirety of the VCF file into a matrix instead of relying on filtered data.
+### Dogwood
+The dogwood genome is available [here](https://genomevolution.org/coge/SearchResults.pl?s=Cornus%20florida&p=genome) for the appalachian spring cultivar. Our plan is to look at NPN data from the same cultivar (see this [project](https://www.usanpn.org/nn/cloned-dogwoods)) in different environments. We are collaborating with the Dogwood Genome Project to sequence additional dogwood cultivars with NPN data in the same environment for comparison.
+### Black cottonwood
+Populus trichocarpa has been the subject of research by the Dept of Energy, especially at the Oak Ridge National Laboratory, for decades. There is a large data set of phenotypes from sequenced trees collected over decades. We are collaborating with this research group to prepare these data for ML training. So far, it looks like we have data from about 1200 cultivars. The genomic and phenotype data are being processed.
+### Corn
+We have become aware of the large [Genomes2Fields](https://www.genomes2fields.org/) data set and are examining it to see if it is large enough to train a neural network.
 
 ## Phenotype Data
 ### Sorghum
